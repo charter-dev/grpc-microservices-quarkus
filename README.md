@@ -60,7 +60,7 @@
 ## 📁 Project Structure
 
 ```
-grpc-microservices-portfolio/
+grpc-microservices-quarkus/
 ├── proto/                          # Shared Protobuf definitions
 │   ├── user.proto                  # User service contract
 │   └── order.proto                 # Order service contract
