@@ -1,0 +1,25 @@
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Quarkus
+.quarkus/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
