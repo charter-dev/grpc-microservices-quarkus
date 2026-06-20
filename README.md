@@ -177,25 +177,20 @@ cd api-gateway
 
 ```bash
 # 1. Create a user
-curl -X POST http://localhost:8080/api/users \
-  -H "Content-Type: application/json" \
-  -d '{"name": "Budi Santoso", "email": "budi@example.com"}'
+curl -X POST http://localhost:8080/api/users -H "Content-Type: application/json" -d "{\"name\":\"Budi Santoso\",\"email\":\"budi@example.com\"}"
 
 # 2. List all users
 curl http://localhost:8080/api/users
 
 # 3. Create an order for user ID 1
-curl -X POST http://localhost:8080/api/orders \
-  -H "Content-Type: application/json" \
-  -d '{"userId": "1", "productName": "Laptop ASUS", "quantity": 1, "price": 12000000}'
+curl -X POST http://localhost:8080/api/orders -H "Content-Type: application/json" -d "{\"userId\":\"1\",\"productName\":\"Laptop ASUS\",\"quantity\":1,\"price\":12000000}"
 
 # 4. Get orders by user
 curl http://localhost:8080/api/orders/user/1
 
 # 5. Update order status
-curl -X PUT http://localhost:8080/api/orders/1/status \
-  -H "Content-Type: application/json" \
-  -d '{"status": "SHIPPED"}'
+curl -X PUT http://localhost:8080/api/orders/1/status -H "Content-Type: application/json" -d "{\"status\":\"SHIPPED\"}"
+
 ```
 
 ---
