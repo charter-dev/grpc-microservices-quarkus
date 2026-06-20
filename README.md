@@ -242,31 +242,6 @@ curl -X PUT http://localhost:8080/api/orders/1/status \
 
 ---
 
-## 🏗️ Extending This Project
-
-Ideas to add more depth to this portfolio:
-- [ ] Add PostgreSQL with Panache ORM
-- [ ] Implement JWT authentication in API Gateway
-- [ ] Add Kafka for async event publishing
-- [ ] Deploy to Kubernetes (include YAML manifests)
-- [ ] Add distributed tracing with OpenTelemetry
-- [ ] Write integration tests with `@QuarkusIntegrationTest`
-- [ ] Add gRPC streaming endpoint
-
----
-
-## 👤 Author
-
-**[Your Name]**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- Email: your.email@example.com
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
