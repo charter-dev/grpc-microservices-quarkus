@@ -116,8 +116,8 @@ grpc-microservices-quarkus/
 ### Option 1: Docker Compose (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/grpc-microservices-portfolio.git
-cd grpc-microservices-portfolio
+git clone https://github.com/YOUR_USERNAME/grpc-microservices-quarkus.git
+cd grpc-microservices-quarkus
 
 # Build and start all services
 docker-compose up --build
